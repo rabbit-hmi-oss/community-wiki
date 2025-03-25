@@ -12,7 +12,7 @@ Greetings and welcome to rabbit Mods Wiki!
 Before going forward, make sure you have met these requirements:
 
 * Make sure your PC has the latest [`ADB & Fastboot tools`](https://developer.android.com/studio/releases/platform-tools) version installed as well as the fastboot drivers.
-* If on windows, make sure latest [Google USB Driver}(https://developer.android.com/studio/run/win-usb) is installed.
+* If on windows, make sure latest [Google USB Driver](https://developer.android.com/studio/run/win-usb) is installed.
 * Make sure your device has the bootloader unlocked.
 * Make sure you have made a backup of **EVERYTHING** present on your phone.
 ## Support channels
