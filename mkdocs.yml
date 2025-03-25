@@ -1,0 +1,46 @@
+site_name: rabbitMods Wiki
+edit_uri: ""
+copyright: Copyright &copy; 2025 The rabbitMods Team
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - def_list
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tilde
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.tasklist:
+      custom_checkbox: true
+
+theme:
+  name: material
+  favicon: images/logo.png
+  logo: images/logo.png
+
+  palette:
+    scheme: slate
+    primary: custom
+    accent: custom
+
+  features:
+    - navigation.tabs
+
+extra_css:
+  - stylesheets/extra.css
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/rabbit-hmi-oss
+    - icon: fontawesome/solid/circle-dollar-to-slot
+      link: https://rabbit.tech
+
+nav:
+  - Getting started: 'index.md'
+  - Flashing: 'flashing.md'
+  - Troubleshooting: 'troubleshooting.md'
+  - Supported ROMs: 'roms.md'
+  - Buy: 'https://rabbit.tech'
