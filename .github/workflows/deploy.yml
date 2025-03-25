@@ -1,0 +1,44 @@
+name: Deploy Rabbit community-wiki
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Set up timezone
+        run: sudo timedatectl set-timezone Asia/Kolkata
+
+      - name: Clone Source
+        run: git clone https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/rabbit-hmi-oss/wiki wiki
+        
+      - name: Clone Deploy repository
+        run: cd wiki && git clone https://x-access-token:${{ secrets.GH_CUST_TOKEN }}@github.com/rabbitmodsdotnet/splash deploy
+
+      - name: Set up Python
+        uses: actions/setup-python@v3
+        with:
+          python-version: '3.x'
+
+      - name: Install MkDocs Material
+        run: pip install mkdocs-material
+
+      - name: Build site
+        run: cd wiki && mkdocs build --site-dir deploy/dist
+        
+      - name: Configure Git
+        run: |
+          git config --global user.name "github-actions"
+          git config --global user.email "actions@github.com"
+
+      - name: Commit and push changes
+        run: |
+          cd wiki/deploy
+          git add .
+          git commit -sm "Update site $(date +'%Y-%m-%d %H:%M:%S %Z')"
+          git push https://x-access-token:${{ secrets.GH_CUST_TOKEN }}@github.com/rabbitmodsdotnet/splash HEAD:main
