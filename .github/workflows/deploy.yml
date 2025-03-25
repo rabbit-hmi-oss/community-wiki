@@ -15,7 +15,7 @@ jobs:
         run: sudo timedatectl set-timezone Asia/Kolkata
 
       - name: Clone Source
-        run: git clone https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/rabbit-hmi-oss/wiki wiki
+        run: git clone https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/rabbit-hmi-oss/community-wiki wiki
         
       - name: Clone Deploy repository
         run: cd wiki && git clone https://x-access-token:${{ secrets.GH_CUST_TOKEN }}@github.com/rabbitmodsdotnet/splash deploy
