@@ -34,9 +34,9 @@ Before going forward, make sure you have read our Get Started Guide.
 
 
 ## Support
-You can get in touch with us on our official [Telegram Channel](https://t.me/Mods on rabbit r1) or on [X Formerly Twitter](https://x.com/CipherROM).
+You can get in touch with us on our official discord channel.
  
 
 <div style="text-align: right">
-    <a href="https://Mods on rabbit r1.org.in" class="md-button">Visit us</a>
+    <a href="https://rabbitmods.net" class="md-button">Visit us</a>
 </div>
