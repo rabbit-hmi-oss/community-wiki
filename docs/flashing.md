@@ -39,6 +39,7 @@ You can get in touch with us on our official discord channel.
 
 ## ⚠️ Bootloader Unlocking and Cipher OS Installation on Rabbit R1
 ### ATTENTION: Follow this procedure at your own RISK. Rabbit Inc and the creator of this guide  DO NOT ASSUME ANY LIABILITY for any damage to your device or any malfunctions. Ensure you fully understand the risks before proceeding.
+### Guide by (Angetyde)[https://github.com/atdvfegerf] and (Asquare)[]
 ### 🔹 Step 1: Obtain Unlock Authorization
 
 * Step 1: Read and Complete the Documentation
