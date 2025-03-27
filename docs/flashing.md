@@ -180,7 +180,7 @@ You can get in touch with us on our official discord channel.
 ### Step 1: If "Corrupted OS" Error Appears
 - If `"Corrupted OS"` appears and the terminal shows **"Waiting for any device"**, follow these steps:
 - Download **vbmeta.img** from:  
-  **[THIS LINK](https://discord.com/channels/1185274945786359889/1352370182038753362/135340386459372753)**
+  **[THIS LINK]( https://discord.com/channels/1185274945786359889/1352370182038753362/1353403864593727538)**
 - Rename the file to **"vbmeta.img"**.
 - Place the file in the **platform-tools** folder.
 
