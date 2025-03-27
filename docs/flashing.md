@@ -134,7 +134,7 @@ You can get in touch with us on our official discord channel.
 
 ### Step 1: Download and Prepare Cipher OS
 - Download **Cipher OS for Rabbit R1** from:  
-  **[THIS LINK](https://github.com/RabbitHoleEscapeR1/r1_escape)**
+  **[THIS LINK](  https://cipheros.org.in/devices/r1)**
 - Rename the Cipher OS file:
   - If the file is named `"build"`, rename it to **"build.zip"**.
 - Place **"build.zip"** in a folder of your choice.
