@@ -141,6 +141,7 @@ You can get in touch with us on our official discord channel.
 
 ### Step 2: Install Cipher OS
 - Open the **terminal** in the **platform-tools** folder.
+- change the path with your true path  
 - Run:
     ```sh
     fastboot update "C:\Path\to\file\build.zip" -w
@@ -154,6 +155,7 @@ You can get in touch with us on our official discord channel.
     .\fastboot flashing unlock
     ```
 - If successful, the **Rabbit R1** screen will show `"fastbootd"` in large letters.
+- don't touch anything and leave it alone until everything is completed  
 
 ---
 
