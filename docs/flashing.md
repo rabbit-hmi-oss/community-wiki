@@ -88,7 +88,7 @@ You can get in touch with us on our official discord channel.
 
 ### Step 1: Enter Fastboot Mode
 - Go to the **Rabbit R1 flashing page** →  
-  **[Click here to enter Fastboot Mode](https://www.rabbit.tech/support/article/unlock-bootloader-rabbit-r1)**
+  **[Click here to enter Fastboot Mode](https://rabbit-hmi-oss.github.io/flashing/)**
 - Click on `"Enter Fastboot Mode"`.
 - Connect the **Rabbit R1** to the PC via USB cable.
 - A device selection window will appear. **Quickly select** `"MT65 Preloader"` within **1.5 seconds** and click **OK**.
