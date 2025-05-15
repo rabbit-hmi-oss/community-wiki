@@ -40,6 +40,12 @@ You can get in touch with us on our official discord channel.
 
 **ATTENTION:** Follow this procedure at your own **RISK**. Neither **Rabbit Inc.** nor the creator of this guide **assumes any liability** for any damage to your device or malfunctions. Make sure you fully understand the risks before proceeding.
 
+⚠️⚠️⚠️⚠️# *Disclaimer*
+
+The author of this guide and Rabbit Inc. explicitly disclaim all liability for any damages, losses, or malfunctions resulting from the use or misuse of this guide or the procedures described herein. By using this guide, you acknowledge and agree that you assume full responsibility and risk for any outcome. Neither the author nor Rabbit Inc. shall be held responsible or liable for any direct, indirect, incidental, consequential, or punitive damages arising from your use of this material. Use this guide at your own risk.
+
+For support or assistance, please refer to the official Rabbit Inc. community channels such as the Rabbit Discord server or the Rabbit Reddit community.
+
 ---
 
 ## 🔹 Step 1: Obtain Unlock Authorization
