@@ -46,6 +46,8 @@ The author of this guide and Rabbit Inc. explicitly disclaim all liability for a
 
 For support or assistance, please refer to the official Rabbit Inc. community channels such as the Rabbit Discord server or the Rabbit Reddit community.
 
+# This isn’t a super detailed guide, so if you’re a beginner or run into a problem you can’t solve, we strongly recommend asking for help on the Rabbit R1 Discord server. There are lots of people there who can explain things much better than this guide does.
+
 ---
 
 ## 🔹 Step 1: Obtain Unlock Authorization
@@ -87,12 +89,19 @@ For support or assistance, please refer to the official Rabbit Inc. community ch
 - If you're using **Windows**, install the Google USB Drivers:
   - **[Download Google USB Driver](https://developer.android.com/studio/run/win-usb)**
   - Extract the ZIP file into a folder on your PC.
+ 
+  ### Step 3: Install MediaTek Preloader USB VCOM Drivers (for Windows)
+   - **[Download MediaTek Preloader USB VCOM Drivers ](https://github.com/rabbit-hmi-oss/firmware/releases/tag/drivers)**
+   - Extract the folder, open the extracted folder, find the MediaTek_Preloader_USB_VCOM_drivers.exe file and follow the instructions, then continue with the guide
+  
+    
 
 ---
 
 ## 🔹 Step 3: Enter Fastboot Mode
 
 ### Step 1: Enter Fastboot Mode
+- turn off the device
 - Go to the **Rabbit R1 flashing page** →  
   **[Click here to enter Fastboot Mode](https://rabbit-hmi-oss.github.io/flashing/)**
 - Click on `"Enter Fastboot Mode"`.
